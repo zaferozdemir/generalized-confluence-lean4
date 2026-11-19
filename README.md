@@ -4,8 +4,8 @@ This repository contains a Lean 4 formalization of generalized confluence for bi
 
 ## Toolchain and dependency versions
 
-- Lean: `leanprover/lean4:v4.36.0`
-- Mathlib: `v4.36.0`
+- Lean 4: `4.36.0` (`leanprover/lean4:v4.36.0`)
+- Mathlib: `4.36.0` (Mathlib tag `v4.36.0`)
 
 The Lean version is pinned in `lean-toolchain`. The Mathlib version is declared in `lakefile.lean`; `lake-manifest.json` pins Mathlib and its transitive dependencies to exact Git revisions.
 
@@ -41,4 +41,4 @@ The development includes the generalized-confluence/frame-validity correspondenc
 
 ## License
 
-This project is released under the MIT License. See [`LICENSE`](LICENSE) for the full license text.
+The MIT License applies only to the original Lean formalization source code authored for this repository, currently `GeneralizedConfluence.lean`. It does not apply to Lean 4, Mathlib, or any third-party dependencies; those remain governed by their respective upstream licenses. The MIT License also does not cover any related article or manuscript. See [`LICENSE`](LICENSE) for the license text and its scope.
