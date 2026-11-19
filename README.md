@@ -41,4 +41,4 @@ The development includes the generalized-confluence/frame-validity correspondenc
 
 ## License
 
-No license has been assigned yet. All rights are reserved by default unless a license is added.
+This project is released under the MIT License. See [`LICENSE`](LICENSE) for the full license text.
