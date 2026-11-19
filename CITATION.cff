@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as follows."
+title: "Generalized Confluence in Lean 4"
+type: software
+authors:
+  - family-names: Özdemir
+    given-names: Zafer
+    affiliation: İstanbul Nişantaşı University
+abstract: >-
+  Lean 4 formalization of generalized confluence for binary relations,
+  including results on functional graphs, iteration, periodicity,
+  and finite uniform periods.
+keywords:
+  - Lean 4
+  - generalized confluence
+  - formal verification
+  - theorem proving
+  - mathematical logic
+repository-code: "https://github.com/zaferozdemir/generalized-confluence-lean4"
