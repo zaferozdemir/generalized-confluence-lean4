@@ -111,7 +111,7 @@
       "configFile": "lakefile.toml"
     }
   ],
-  "name": "generalized-confluence-lean4",
+  "name": "GeneralizedConfluenceProject",
   "lakeDir": ".lake",
   "fixedToolchain": false
 }
