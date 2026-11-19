@@ -1,4 +1,9 @@
-import Mathlib
+module
+
+public import Mathlib
+
+@[expose] public section
+
 namespace GeneralizedConfluence
 
 def relPow {W : Type} (R : W → W → Prop) :
@@ -2823,7 +2828,7 @@ theorem functionIterate_involution_even
       calc
         functionIterate f (2 * (n + 1)) x =
             functionIterate f (2 * n + 2) x := by
-              congr 1 <;> omega
+              congr 1
         _ = functionIterate f (2 * n)
               (functionIterate f 2 x) := by
               exact functionIterate_add f (2 * n) 2 x
@@ -2879,7 +2884,6 @@ theorem confluent_functionGraph_iff_parity_of_symmetric
         simpa [d] using heven
       have hd : d = 2 * (d / 2) := by omega
       intro w
-      change functionIterate f d w = w
       rw [hd]
       exact functionIterate_involution_even f hinv (d / 2) w
     · intro w
