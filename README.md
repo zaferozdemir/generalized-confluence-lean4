@@ -23,7 +23,16 @@ The main formalization is in `GeneralizedConfluence.lean`, under the namespace `
 
 ## Verification status
 
-The source file was transferred from the project working copy without intentional mathematical edits. A successful Lean build has **not yet been independently confirmed**. The GitHub Actions workflow runs `lake build` on pushes and pull requests; its result will provide the first repository-side build check.
+On 19 November 2026, GitHub Actions completed `lake build` successfully with Lean 4.36.0 and Mathlib v4.36.0. The build log confirms that `GeneralizedConfluence` was compiled and reports:
+
+```text
+✔ [18250/18252] Built GeneralizedConfluence (4.3s)
+Build completed successfully (18252 jobs).
+```
+
+The run contained no Lean compiler warnings or errors. The workflow verifies compilation; project test and lint targets are not currently configured.
+
+See the [successful GitHub Actions run](https://github.com/zaferozdemir/generalized-confluence-lean4/actions/runs/44507673240).
 
 ## Scope
 
